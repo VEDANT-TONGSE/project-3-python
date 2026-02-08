@@ -15,7 +15,7 @@ while True:
     img_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     results = hands.process(img_rgb)
 
-    fingers = []
+    fingers = [] 
 
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
