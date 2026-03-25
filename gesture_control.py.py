@@ -18,7 +18,7 @@ while True:
     fingers = [] 
 
     if results.multi_hand_landmarks:
-        for hand_landmarks in results.multi_hand_landmarks:
+        for hand_landmarks in  results.multi_hand_landmarks:
             lm_list = []
             h, w, c = frame.shape
 
